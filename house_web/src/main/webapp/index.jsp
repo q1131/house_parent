@@ -12,17 +12,8 @@
     <title>Title</title>
 </head>
 <body>
-
 <table border="2">
-    <tr>
-        <td>编号</td><td>名称</td>
-    </tr>
-    <c:forEach items="${list}" var="d">
-        <tr>
-            <td>${d.id}</td><td>${d.name}</td>
-            <td><a href="/delDistrict?id=${d.id}">删除</a></td>
-        </tr>
-    </c:forEach>
+    <a href="/test/getAll">点击</a>
 </table>
 </body>
 </html>

@@ -1,3 +1,4 @@
+/*
 package com.kgc.house.protal.controller;
 
 import com.kgc.house.sms.SmsUtil;
@@ -7,13 +8,15 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
 
+*/
 /**
  * @author 王建兵
  * @Classname SmsController
  * @Description TODO
  * @Date 2019/7/2 17:13
  * @Created by Administrator
- */
+ *//*
+
 @Controller
 @RequestMapping("/page/")
 public class SmsController {
@@ -39,3 +42,4 @@ public class SmsController {
     }
 
 }
+*/

@@ -1,10 +1,13 @@
+/*
 package com.kgc.house.sms;
 
+*/
 /**
  * @Title: http://www.smschinese.cn/api.shtml
  * @date 2011-3-22
  * @version V1.2  
- */
+ *//*
+
 public class SmsUtil {
 	
 	//用户名
@@ -20,12 +23,14 @@ public class SmsUtil {
 	//private static String smsText = "睡醒了没?";
 
 
-	/**
+	*/
+/**
 	 * 发送短信的方法
 	 * @param smsMob  手机号
 	 * @param smsText  发送的文本
 	 * @return 表示发送成功的条数 >0 就是成功
-	 */
+	 *//*
+
 	public static int sendMsm(String smsMob,String smsText) {
 		
 		HttpClientUtil client = HttpClientUtil.getInstance();
@@ -35,3 +40,4 @@ public class SmsUtil {
 		return result;
 	}
 }
+*/

@@ -33,10 +33,10 @@ public class UserController {
     }
 
     @RequestMapping("loginUser")
-    public String login(String inputCode, String name, String password, Model model, HttpSession session) {
-        String code = session.getAttribute("code").toString();
+    public String login(/*String inputCode,*/ String name, String password, Model model, HttpSession session) {
+        /*String code = session.getAttribute("code").toString();
         System.out.println("code = " + code);
-        if (code.equals(inputCode)) {
+        if (code.equals(inputCode)) {*/
             Users user = userService.login(name, password);
             if (user == null) {
                 model.addAttribute("info", "用户名密码错误!");
@@ -50,9 +50,9 @@ public class UserController {
                     return "redirect:/admin/admin.jsp";
                 }
             }
-        }else{
+        /*}else{
             model.addAttribute("info","验证码错语!眼神不好使就医");
-            return "login";
-        }
+            return "redirect:/house/getUserHouse";
+        }*/
     }
 }

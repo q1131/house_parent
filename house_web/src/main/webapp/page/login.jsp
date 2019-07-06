@@ -5,7 +5,7 @@
   <META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK
           rel=stylesheet type=text/css href="../css/style.css">
   <META name=GENERATOR content="MSHTML 8.00.7601.17514">
-  <script  language="JavaScript" src="../admin/js/jquery-1.8.3.js"></script>
+  <%--<script  language="JavaScript" src="../admin/js/jquery-1.8.3.js"></script>
   <script language="JavaScript">
       $(function(){
           $("#sendButon").click(function() {
@@ -19,7 +19,7 @@
               },"json");
           });
       });
-  </script>
+  </script>--%>
 </HEAD>
 <BODY>
 <DIV id=header class=wrap>
@@ -48,7 +48,7 @@
 							<td><input type="text" class="text verycode" name="veryCode" /></td>
 						</tr>
 						-->
-            <TR>
+            <%--<TR>
               <TD colspan="2" align="left">
                 输入手号机：<input id="inputTel" type="text" name="tel">  <input id="sendButon" type="button" value="获取验证码" />
               </TD>
@@ -58,7 +58,7 @@
 
                 输入验证码:<input type="text" name="inputCode">
               </TD>
-            </TR>
+            </TR>--%>
             </TBODY></TABLE>
 
 

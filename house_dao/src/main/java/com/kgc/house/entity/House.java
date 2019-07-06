@@ -29,6 +29,36 @@ public class House {
 
     private String path;
 
+    private String sname;
+
+    private String dname;
+
+    private String tname;
+
+    public String getSname() {
+        return sname;
+    }
+
+    public void setSname(String sname) {
+        this.sname = sname;
+    }
+
+    public String getDname() {
+        return dname;
+    }
+
+    public void setDname(String dname) {
+        this.dname = dname;
+    }
+
+    public String getTname() {
+        return tname;
+    }
+
+    public void setTname(String tname) {
+        this.tname = tname;
+    }
+
     public String getId() {
         return id;
     }
